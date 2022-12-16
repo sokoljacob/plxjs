@@ -1,7 +1,6 @@
 import React from "react";
 import type { AppProps } from "next/app";
 import dynamic from "next/dynamic";
-import { ConnectionProvider } from "@solana/wallet-adapter-react";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -15,12 +14,6 @@ import "../styles/App.css";
 //const endpoint = "https://ssc-dao.genesysgo.net";
 const endpoint = "https://api.mainnet-beta.solana.com";
 
-const WalletProvider = dynamic(
-  () => import("../contexts/ClientWalletProvider"),
-  {
-    ssr: false,
-  }
-);
 
 const openNav = () => {
   document.getElementById("nav")!.style.width = "250px";
@@ -67,17 +60,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div id="nav" className="sidenav">
         <Link href=""><a onClick={closeNav} className="closebtn">&times;</a></Link>
         <Link href="/"><a className="navMenuOption" onClick={closeNav}>HOME</a></Link>
-        <Link href="/realms"><a className="navMenuOption" onClick={closeNav}>REALMS</a></Link>
-        <Link href="/gallery"><a className="navMenuOption" onClick={closeNav}>COMMUNITY GALLERY</a></Link>
-        <Link href="/artistspotlight"><a className="navMenuOption" onClick={closeNav}>ARTIST SPOTLIGHTS</a></Link>
-        <Link href="/join"><a className="navMenuOption" onClick={closeNav}>JOIN</a></Link>
-        <Link href="/dao"><a className="navMenuOption" onClick={closeNav}>DAO</a></Link>
+        <Link href="/allpieces"><a className="navMenuOption" onClick={closeNav}>ALL PIECES</a></Link>
       </div>
-      <ConnectionProvider endpoint={endpoint}>
-        <WalletProvider>
-          <Component {...pageProps} />
-        </WalletProvider>
-      </ConnectionProvider>
     </>
   );
 }

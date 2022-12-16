@@ -6,8 +6,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <meta name="THE REALMS DAO" content="Community Owned 1/1 Collection" />
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=League+Spartan&display=optional" />
+        <meta name="PenguLove Curation Contest - JS" content="PenguLove Curation Contest - JS" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -18,7 +18,7 @@ class MyDocument extends Document {
           <div className="bg-container">
             <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
               <div className="text-center">
-                <h1 className="text-5xl font-bold header siteHeader"><Link href="/">THE REALMS DAO</Link></h1>
+                <h1 className="text-2xl font-bold header siteHeader">PenguLove Curation Contest</h1>
               </div>
               {/* <div className="text-center pt-2">
                 <div className="text-center">

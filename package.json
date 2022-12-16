@@ -1,5 +1,5 @@
 {
-  "name": "realms",
+  "name": "plxjs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,18 +11,10 @@
   "dependencies": {
     "@blazity/next-image-proxy": "^1.0.2",
     "@heroicons/react": "^1.0.5",
-    "@nfteyez/sol-rayz-react": "^0.8.2",
-    "@project-serum/anchor": "^0.19.1-beta.1",
-    "@solana/spl-token": "^0.1.8",
-    "@solana/wallet-adapter-base": "^0.7.0",
-    "@solana/wallet-adapter-phantom": "^0.7.0",
-    "@solana/wallet-adapter-react": "^0.13.1",
-    "@solana/wallet-adapter-react-ui": "^0.6.0",
-    "@solana/wallet-adapter-solflare": "^0.4.0",
-    "@solana/wallet-adapter-sollet": "^0.8.0",
-    "@solana/wallet-adapter-wallets": "^0.11.3",
     "@tailwindcss/typography": "^0.4.1",
     "@types/lodash.orderby": "^4.6.6",
+    "browserslist": "^4.21.4",
+    "caniuse-lite": "^1.0.30001439",
     "daisyui": "^1.16.2",
     "flowbite": "^1.4.1",
     "lodash.orderby": "^4.6.0",
@@ -38,6 +30,7 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@types/node": "^18.11.15",
     "@types/react": "17.0.34",
     "@types/react-alert": "^5.2.1",
     "autoprefixer": "^10.4.0",

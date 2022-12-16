@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FC } from "react";
 import styles from "./index.module.css";
 
-export const JoinRealms: FC = ({}) => {
+export const AllPieces: FC = ({}) => {
   return (
     <div className="join-content">
       	<div className="left-content">
