@@ -11,6 +11,7 @@ import treePF from './treePF.json';
 import treeWiW from './treeWiW.json';
 import treePFpieces from './treePFpieces.json';
 import treeWiWpieces from './treeWiWpieces.json';
+import treeFoyerReturn from './treeFoyerReturn.json';
 
 let CharacterName = "";
 let treeNode = 1;
@@ -134,11 +135,13 @@ export const HomeView: FC = ({}) => {
                     document.getElementById("gallery-scene")!.style.backgroundImage = 'url("/imgs/scenes/photoghall.png")';
                     treeNode = 1;
                     setTree(nextScene, selectedAction);
+                    PFViewed = true;
                     break;
                   case "Warmth in Winter":
                     document.getElementById("gallery-scene")!.style.backgroundImage = 'url("/imgs/scenes/abstracthall.png")';
                     treeNode = 1;
                     setTree(nextScene, selectedAction);
+                    WiWViewed = true;
                     break;
                   default:
                     document.getElementById("gallery-scene")!.style.backgroundImage = 'url("/imgs/scenes/foyer.png")';
@@ -151,6 +154,12 @@ export const HomeView: FC = ({}) => {
               default:
                 document.getElementById("gallery-scene")!.style.backgroundImage = 'url("/imgs/scenes/foyer.png")';
                 break;
+            }
+
+            if(document.getElementById("gallery-scene")!.style.backgroundImage.includes("/imgs/scenes/foyer.png")){
+              document.getElementById("room-wrapper")!.style.width = '60%';
+              document.getElementById("room-wrapper")!.style.marginLeft = '30%';
+              document.getElementById("room-image-wrapper")!.style.display = 'none';
             }
 
             document.getElementById("gallery-scene")!.style.animation = '1.5s zoom-out';
@@ -184,7 +193,17 @@ export const HomeView: FC = ({}) => {
           }
           document.getElementById("room-instructions")!.style.animation = '0.5s fadeIn';
           document.getElementById("room-instructions")!.style.display = 'inline-block';
-          document.getElementById("room-instructions-label")!.innerText = node!.message.toString();
+          let msg = node!.message.toString();
+          if(msg === "HISTORYDEPENDENT"){
+            if (PFViewed && WiWViewed){
+              msg = "Thank you for visiting both exhibitions! You may view either one again, or feel free to click the 'exit' icon to restart!"
+            } else if(PFViewed){
+              msg = "We hope you enjoyed the 'Perpendicular Facades' exhibition. You can view it again if you'd like, or feel free to proceed to viewing 'Warmth in Winter'!"
+            } else if(WiWViewed){
+              msg = "We hope you enjoyed the 'Warmth in Winter' exhibition. You can view it again if you'd like, or feel free to proceed to viewing 'Perpendicular Facades'!"
+            }
+          }
+          document.getElementById("room-instructions-label")!.innerText = msg;
           document.getElementById("room-instructions-label")!.style.animation = '1.5s fadeIn';
           document.getElementById("room-instructions-label")!.style.display = 'inline-block';
           setTimeout(function() {
@@ -242,6 +261,9 @@ export const HomeView: FC = ({}) => {
           break;
         case 'treeWiWpieces':
           activeTree = treeWiWpieces;
+          break;
+        case 'treeFoyerReturn':
+          activeTree = treeFoyerReturn;
           break;
         case 'CHOICEDEPENDENT':
           switch (selectedAction) {

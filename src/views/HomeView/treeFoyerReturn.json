@@ -1,0 +1,11 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "HISTORYDEPENDENT",
+        "action1": "Perpendicular Facades",
+        "action2": "Warmth in Winter",
+        "changescene": "CHOICEDEPENDENT",
+        "changetree":"CHOICEDEPENDENT"
+    }
+]
