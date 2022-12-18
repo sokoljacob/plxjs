@@ -12,7 +12,7 @@
         "node": 2,
         "image": "",
         "message": "We picked up a bottle of Lagavulin 16 year for you to enjoy as you peruse the gallery today.",
-        "action1": "You get me, js.",
+        "action1": "LFG!",
         "action2": "",
         "changescene": "",
         "changetree":""
@@ -20,9 +20,54 @@
     {
         "node": 3,
         "image": "",
-        "message": "I do. I really do. It's totally not a bribe intended to sway you into voting my gallery first place in the contest.",
-        "action1": "I would never think that. You're a straight shooter!",
-        "action2": "*wink* *wink*",
+        "message": "Just be sure to take it easy. We don't need anyone getting sick in the gallery.",
+        "action1": "*Glug glug glug*",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 4,
+        "image": "",
+        "message": "Uh, Brad. I said take it easy. You know what happens &#@#*&* #*$##*$&@#* !(@(*#*@( !@(#$!@&$(&*",
+        "action1": "*Drink MOAR*",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 5,
+        "image": "",
+        "message": ")*#!*@# *(&$@*( &$@ &@#&$^ #@ &^ BRAD #@*&$#@*$& WATER ($*#)( ",
+        "action1": "*Drink some water*",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 6,
+        "image": "",
+        "message": ")!@*#(!@$&*#(* &*#!*@# Brad? (#*( ($#* Are you with us now? Finally sobering up I see.",
+        "action1": "Wha. What happened?",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 7,
+        "image": "",
+        "message": "Let's not do that again, ok?",
+        "action1": "Yea, I promise.",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 8,
+        "image": "",
+        "message": "All right, I won't mention that little incident to the other judges.",
+        "action1": "Our little secret.",
+        "action2": "",
         "changescene": "",
         "changetree":"treeIntro"
     }

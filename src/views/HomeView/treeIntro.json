@@ -2,7 +2,7 @@
     {
         "node": 1,
         "image": "",
-        "message": "Some housekeeping before we get started...if at any time you wish to start over, you can click 'exit' icon in the top right corner of the window.",
+        "message": "Some housekeeping before we get started... if at any time you wish to start over, you can click 'exit' icon in the top right corner of the window.",
         "action1": "Got it!",
         "action2": "",
         "changescene": "",
@@ -11,7 +11,61 @@
     {
         "node": 2,
         "image": "",
-        "message": "Well, you know what they say: 0.01 SOL saved is 0.01 SOL earned. Anyways, which exhibition do you wish to view first?",
+        "message": "If you want an unguided tour, you can click the 'image' icon in the top right corner. I promise not to be offended... much. I only put a lot of time and effort into the presentation of this, so TOTALLY no hard feelings if you don't want me here. None. Nada. OK, maybe just a little bit.",
+        "action1": "I absolutely want the guided tour!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "",
+        "message": "Oh, Great! Another tip: when viewing a specific artwork during the guided tour you can click on it to view it in high resolution in a new tab.",
+        "action1": "High res... chef's kiss!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 4,
+        "image": "",
+        "message": "And finally, it appears you've already figured it out, but progressing through the gallery is simply a matter of choosing one of the options below.",
+        "action1": "Yea, I'm not an idiot, js.",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 5,
+        "image": "",
+        "message": "Oh, right. Sorry. OK then, let's tell you a little bit about what we have in store for you today, shall we?",
+        "action1": "Yes, gib art plz.",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 6,
+        "image": "",
+        "message": "Our gallery is displaying two themed exhibitions today. 'Perpendicular Facades' focuses on street photography. 'Warmth in Winter' features abstract art designed to warm your soul.",
+        "action1": "2 exhibitions?? Wow! You killed it, js!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 7,
+        "image": "",
+        "message": "Why thank you! The entire gallery - both exhibitions combined - came in UNDER budget at 9.99 SOL!",
+        "action1": "That's only 0.01 SOL, man.",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 8,
+        "image": "",
+        "message": "Well, you know what they say: 0.01 SOL saved is 0.01 SOL earned.  The gallery also contains only 2 editions, 33% below the limit! Anyways, enough mind-blowing mathematics... which exhibition do you wish to view first?",
         "action1": "Perpendicular Facades",
         "action2": "Warmth in Winter",
         "changescene": "CHOICEDEPENDENT",
