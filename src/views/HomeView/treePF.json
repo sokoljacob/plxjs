@@ -1,0 +1,20 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "Perpendicular Facades. On our way here and there, we sometimes get lost in the hustle and bustle of life. This photography exhibition shines light on some incredible scenes we might otherwise just walk on by.",
+        "action1": "You're right, we miss so much when we live life in parallel!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "I know right? We're lucky these photographers don't miss!",
+        "action1": "Let's see!",
+        "action2": "",
+        "changescene": "wall",
+        "changetree":"treePFpieces"
+    }
+]

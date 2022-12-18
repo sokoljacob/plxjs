@@ -6,7 +6,7 @@ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>PenguLove x JS Curation Contest</title>
+        <title>PenguLove x js Curation Contest</title>
       </Head>
       <HomeView />
     </div>

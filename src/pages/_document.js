@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <meta name="PenguLove Curation Contest - JS" content="PenguLove Curation Contest - JS" />
+        <meta name="PenguLove Curation Contest - JS' Gallery" content="PenguLove Curation Contest - JS' Gallery" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -16,31 +16,6 @@ class MyDocument extends Document {
         </Head>
         <body>
           <div className="bg-container">
-            <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
-              <div className="text-center">
-                <h1 className="text-2xl font-bold header siteHeader">PenguLove Curation Contest</h1>
-              </div>
-              {/* <div className="text-center pt-2">
-                <div className="text-center">
-                  <table className="navTable">
-                    <tr>
-                      <td className="navTableItem">
-                        <Link href="/">HOME</Link>
-                      </td>
-                      <td className="navTableItem">
-                        <Link href="/realms">REALMS</Link>
-                      </td>
-                      <td className="navTableItem">
-                        <Link href="/gallery">COMMUNITY GALLERY</Link>
-                      </td>
-                      <td className="navTableItem">
-                        <Link href="/js">JOIN</Link>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </div> */}
-            </div>
           <Main />
           <NextScript />
           </div>

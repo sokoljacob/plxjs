@@ -1,0 +1,29 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "AHHHHHHHHHHHHH there's an ape in the building!!! Oh...Topo. I'm so sorry sir, I didn't recognize you.",
+        "action1": "I just got off my shift at McDegens.",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "We stocked up on perfectly ripe bananas for you to enjoy as you peruse the gallery today.",
+        "action1": "OM NOM NOM!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "",
+        "message": "Woah, I almost lost a finger!",
+        "action1": "Let's get to it, shall we?",
+        "action2": "",
+        "changescene": "",
+        "changetree":"treeIntro"
+    }
+]

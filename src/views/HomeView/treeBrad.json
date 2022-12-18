@@ -1,0 +1,29 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "Well if it isn't Brad B! So glad you could join us today.",
+        "action1": "Thank you! Glad to be here!",
+        "action2": "They made me come.",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "We picked up a bottle of Lagavulin 16 year for you to enjoy as you peruse the gallery today.",
+        "action1": "You get me, js.",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "",
+        "message": "I do. I really do. It's totally not a bribe intended to sway you into voting my gallery first place in the contest.",
+        "action1": "I would never think that. You're a straight shooter!",
+        "action2": "*wink* *wink*",
+        "changescene": "",
+        "changetree":"treeIntro"
+    }
+]

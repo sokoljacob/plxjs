@@ -1,0 +1,29 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "Kadense, thank you for waddling your way to visit the gallery today!",
+        "action1": "I wouldn't miss it!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "We stocked up on fresh fish for you to enjoy as you peruse the gallery today.",
+        "action1": "OMG YES!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "",
+        "message": "It's totally not a bribe intended to sway you into voting my gallery first place in the contest.",
+        "action1": "I would never think that. You're a straight shooter!",
+        "action2": "*wink* *wink*",
+        "changescene": "",
+        "changetree":"treeIntro"
+    }
+]

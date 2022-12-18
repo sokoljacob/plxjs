@@ -1,0 +1,92 @@
+[
+    {
+        "node": 1,
+        "image": "/imgs/photog/1ebro.png|https://images-cdn.exchange.art/5PyfVJ40oKaNkKG3vpNN_AOYasMMn5APjzw_Y8oIwSI?ext=fastly&auto=avifwebp",
+        "message": "'San Ignacio' (Edition)\r\nArtist: ebro\r\nTwitter: @ebrosmash\r\nAcquired 12/13 for 0.7 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "ebro is an up and coming photographer on the Solana 1/1 scene. He is our featured photographer in 'Perpendicular Facades'!",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "/imgs/photog/2ebro2.png|https://images-cdn.exchange.art/4Xe5zDGU6GZCyprJSSTbXW3GMEATrOEopsQhsK29WqY?ext=fastly&auto=avifwebp",
+        "message": "'bricks' (1/1)\r\nArtist: ebro\r\nTwitter: @ebrosmash\r\nAcquired 12/16 for 1.67 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 4,
+        "image": "",
+        "message": "The second piece from our featured photographer, this 1/1 shows the streets of ___.",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 5,
+        "image": "/imgs/photog/3emila.png|https://formfunction.imgix.net/nft-images/lpFu6-M9xYFJeCgflb-tp.jpg?q=100&auto=format&ixlib=react-9.5.4&w=2257",
+        "message": "'I Want The World To Be Fair' (1/1)\r\nArtist: Emila Yusof\r\nTwitter: @emilayusof\r\nAcquired 12/14 for 1 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 6,
+        "image": "",
+        "message": "I'm sure you've heard of Emila before. She's an incredible impressionist artist, but her under-the-radar photography caught my eye and fit this exhibition perfectly!",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 7,
+        "image": "/imgs/photog/4pardini.png|https://formfunction.imgix.net/nft-images/g1bGkAYEL2AgiExf8RhHG.jpg?q=100&auto=format&ixlib=react-9.5.4&w=2257",
+        "message": "'Paraty-Contrasts#3' (1/1)\r\nArtist: Art Pardini\r\nTwitter: @artpardini\r\nAcquired 12/15 for 1.5 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 8,
+        "image": "",
+        "message": "...",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 9,
+        "image": "/imgs/photog/5blockframez.png|https://images-cdn.exchange.art/fEfOalZezHK0QYUSIMFPBqnfip_k8TWQms2WY9KpujU?ext=fastly&auto=avifwebp",
+        "message": "'Blocks' (1/1)\r\nArtist: BlockFramez\r\nTwitter: @BlockFramez\r\nAcquired 12/15 for 1.67 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 10,
+        "image": "",
+        "message": "BlockFramez is no new kid on the block. Get it? block... 'Blocks', BlockFramez. Cheesey, sorry. Ok, BlockFramez has been producing incredible street photography for quite some time, so its only fitting to round out this exhibition with a vet!",
+        "action1": "Wow! That exhibition was incredible!",
+        "action2": "",
+        "changescene": "foyer",
+        "changetree":"treeFoyerReturn"
+    }
+]

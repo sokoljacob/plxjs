@@ -1,0 +1,29 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "Oh thank heavens you're here, Quincy! The other judges were here earlier, but they were a bunch of animals...literally. So glad to finally have a well behaved Boogle in our presence. Don't tell them I said that!",
+        "action1": "Oh trust me, I know.",
+        "action2": "Insulting the judges...great way to start off.",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "We thought you might enjoy a nice beer as you peruse the gallery today.",
+        "action1": "You get me, js.",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "",
+        "message": "I do. I really do. It's totally not a bribe intended to sway you into voting my gallery first place in the contest.",
+        "action1": "I would never think that. You're a straight shooter!",
+        "action2": "*wink* *wink*",
+        "changescene": "",
+        "changetree":"treeIntro"
+    }
+]

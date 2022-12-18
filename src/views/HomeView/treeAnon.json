@@ -1,0 +1,29 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "Welcome Anon! Le Galerie de JS is absolutely open to the public; we're so glad you joined us today!",
+        "action1": "Thank you! Glad to be here!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "We'd offer you a glass of wine, but we can't really be sure if you are of age. The insurance on this place is insane, so we can't risk it, sorry.",
+        "action1": "It's fine. I get it",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "",
+        "message": "Glad you understand! Now then, are we ready for an exquisite tour of the gallery?",
+        "action1": "Sure am!",
+        "action2": "",
+        "changescene": "",
+        "changetree":"treeIntro"
+    }
+]

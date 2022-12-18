@@ -1,0 +1,20 @@
+[
+    {
+        "node": 1,
+        "image": "",
+        "message": "Warmth in Winter. Not sure about where you're from, but in my neck of the woods...baby it's cold outside. This exhibition was curated to bring you some warmth on those cold winter days!",
+        "action1": "It's not cold here, but I love it anyway...let's go!",
+        "action2": "Warm me up!",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "You got it! here we go!",
+        "action1": "Go on...",
+        "action2": "",
+        "changescene": "wall",
+        "changetree":"treeWiWpieces"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "node": 1,
+        "image": "/imgs/abstract/1pigment.png|https://formfunction.imgix.net/nft-images/4Ep6Q5SdeoBz-XiX0uvor.jpg?q=100&auto=format&ixlib=react-9.5.4&w=2257",
+        "message": "'pink walls' (1/1)\r\nArtist: Pigment\r\nTwitter: @MyartNz\r\nAcquired 12/15 for 0.45 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 2,
+        "image": "",
+        "message": "...",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 3,
+        "image": "/imgs/abstract/2pigment2.png|https://formfunction.imgix.net/nft-images/790O6kL3Fp6FvwIcP4amI.jpg?q=100&auto=format&ixlib=react-9.5.4&w=2257",
+        "message": "'Luminary_03' (1/1)\r\nArtist: Pigment\r\nTwitter: @MyartNz\r\nAcquired 12/15 for 0.4 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 4,
+        "image": "",
+        "message": "Who doesn't love some Rothko vibes??",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 5,
+        "image": "/imgs/abstract/3risheri.png|https://formfunction.imgix.net/nft-images/dX1e_by162k7kdLQcNPAa.jpg?q=100&auto=format&ixlib=react-9.5.4&w=2257",
+        "message": "'Abstract' (1/1)\r\nArtist: rishehri\r\nTwitter: @rishehri_h\r\nAcquired 12/15 for 1.1 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 6,
+        "image": "",
+        "message": "...",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 7,
+        "image": "/imgs/abstract/4ben.png|https://formfunction.imgix.net/nft-images/01TLCrrhnQogZkTMIOQQx.jpg?q=100&auto=format&ixlib=react-9.5.4&w=2257",
+        "message": "'#DF68' (1/1)\r\nArtist: Ben Voxman\r\nTwitter: @benvoxman\r\nAcquired 12/13 for 1 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 8,
+        "image": "",
+        "message": "This is the only generative art piece in the gallery today.",
+        "action1": "Amazing. Let's see what's next!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 9,
+        "image": "/imgs/abstract/5hannaby.png|https://images-cdn.exchange.art/3gaOrJl_EV5S5JLgw4ac95G_4VUod-DRcIdh3NIEZ-I?ext=fastly&auto=avifwebp",
+        "message": "'Whiskey sour' (Edition)\r\nArtist: Hanna BY\r\nTwitter: @hanna__by\r\nAcquired 12/14 for 0.5 ◎",
+        "action1": "Tell me more!",
+        "action2": "",
+        "changescene": "",
+        "changetree":""
+    },
+    {
+        "node": 10,
+        "image": "",
+        "message": "...",
+        "action1": "Wow! That exhibition was incredible!",
+        "action2": "",
+        "changescene": "foyer",
+        "changetree":"treeFoyerReturn"
+    }
+]
