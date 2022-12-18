@@ -206,6 +206,29 @@ export const HomeView: FC = ({}) => {
           document.getElementById("room-instructions-label")!.innerText = msg;
           document.getElementById("room-instructions-label")!.style.animation = '1.5s fadeIn';
           document.getElementById("room-instructions-label")!.style.display = 'inline-block';
+
+          if(treeNode === 3){
+            if(activeTree == treeBrad){
+              (document.getElementById("hud-image")! as HTMLImageElement).src = "/imgs/hud/brad.png";
+              document.getElementById("hud-wrapper")!.style.visibility = 'visible';
+            }
+            if(activeTree == treeKadense){
+              (document.getElementById("hud-image")! as HTMLImageElement).src = "/imgs/hud/kadense.png";
+              document.getElementById("hud-wrapper")!.style.visibility = 'visible';
+            }
+            if(activeTree == treeMooMoo){
+              (document.getElementById("hud-image")! as HTMLImageElement).src = "/imgs/hud/moomoo.png";
+              document.getElementById("hud-wrapper")!.style.visibility = 'visible';
+            }
+            if(activeTree == treeQuincy){
+              (document.getElementById("hud-image")! as HTMLImageElement).src = "/imgs/hud/quincy.png";
+              document.getElementById("hud-wrapper")!.style.visibility = 'visible';
+            }
+            if(activeTree == treeTopo){
+              (document.getElementById("hud-image")! as HTMLImageElement).src = "/imgs/hud/topo.png";
+              document.getElementById("hud-wrapper")!.style.visibility = 'visible';
+            }
+          }
           setTimeout(function() {
             document.getElementById("room-actions-label")!.style.animation = '1.5s fadeIn';
             document.getElementById("room-actions-label")!.style.display = 'inline-block';
@@ -290,7 +313,6 @@ return (
         <label id="testLabel"></label>
         <div className="gallery-content">
           <div id="gallery-scene">
-            <br /><br />
             <div id="welcome">
               <div className="welcome-instructions">
                 Welcome to js' Gallery Submission for the PenguLove Curation Contest! Please select your character:
@@ -307,6 +329,9 @@ return (
               <label id="CharacterNameLabel"></label>
             </div>  
             <div id="room">
+              <div id="hud-wrapper">
+                <img id="hud-image"></img>
+              </div>
               <div id="room-image-wrapper">
                 <a href="" id="piece-hl" target="_blank">
                   <img id="piece-image"></img>
