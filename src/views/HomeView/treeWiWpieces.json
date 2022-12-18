@@ -11,7 +11,7 @@
     {
         "node": 2,
         "image": "",
-        "message": "Pigments is the featured artist in our 'Warmth in Winter' exhibition. She has a plethora of incredible abstract art. Browsing her pieces, any abstract art lover is sure to find pieces that appeal to their taste.",
+        "message": "Pigment is the featured artist in our 'Warmth in Winter' exhibition. She has a plethora of incredible abstract art. Browsing her pieces, any abstract art lover is sure to find pieces that appeal to their taste.",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",
@@ -29,7 +29,7 @@
     {
         "node": 4,
         "image": "",
-        "message": "The second piece selected by Pigments for this exhibition is from a series of hers inspired by Mark Rothko. And who doesn't love some Rothko vibes??",
+        "message": "The second piece selected for this exhibition is from a series of Pigment's inspired by Mark Rothko. And who doesn't love some Rothko vibes??",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",
