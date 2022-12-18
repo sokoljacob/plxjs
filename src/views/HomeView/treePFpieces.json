@@ -29,7 +29,7 @@
     {
         "node": 4,
         "image": "",
-        "message": "The second piece from our featured photographer, this 1/1 shows the streets of ___.",
+        "message": "The second piece from our featured photographer; ebro wandered Amsterdam for days before this picture perfect scene presented itself to him.",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",
@@ -65,7 +65,7 @@
     {
         "node": 8,
         "image": "",
-        "message": "...",
+        "message": "Art has a very eclectic and impressive portfolio. His 'Paraty Contrasts' series, from which this piece is taken, focuses on the beauty of residences Paraty, Brazil",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",

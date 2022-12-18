@@ -20,9 +20,9 @@
     {
         "node": 3,
         "image": "",
-        "message": "It's totally not a bribe intended to sway you into voting my gallery first place in the contest.",
-        "action1": "I would never think that. You're a straight shooter!",
-        "action2": "*wink* *wink*",
+        "message": "Can you just do me a favor and take all of the remains with you? We don't need the gallery stinking like dead fish.",
+        "action1": "That's offensive... I love that smell",
+        "action2": "Of course!",
         "changescene": "",
         "changetree":"treeIntro"
     }

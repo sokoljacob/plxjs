@@ -11,7 +11,7 @@
     {
         "node": 2,
         "image": "",
-        "message": "...",
+        "message": "Pigments is the featured artist in our 'Warmth in Winter' exhibition. She has a plethora of incredible abstract art. Browsing her pieces, any abstract art lover is sure to find pieces that appeal to their taste.",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",
@@ -29,7 +29,7 @@
     {
         "node": 4,
         "image": "",
-        "message": "Who doesn't love some Rothko vibes??",
+        "message": "The second piece selected by Pigments for this exhibition is from a series of hers inspired by Mark Rothko. And who doesn't love some Rothko vibes??",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",
@@ -47,7 +47,7 @@
     {
         "node": 6,
         "image": "",
-        "message": "...",
+        "message": "Rishehri is a visual artist/painter. Their abstract works are big and bold; fitting for this gallery. This artist is also an art teacher, and their skill in drawing shines in their female portraits!",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",
@@ -65,7 +65,7 @@
     {
         "node": 8,
         "image": "",
-        "message": "This is the only generative art piece in the gallery today.",
+        "message": "This piece from Ben's 'digital agates' is the only generative art piece in the gallery today. The detail in it is incredible. Papa MooMoo \"LET [me] HAVE ONE OF EM\" whilst taking two of Ben's other pieces. :D",
         "action1": "Amazing. Let's see what's next!",
         "action2": "",
         "changescene": "",
@@ -83,7 +83,7 @@
     {
         "node": 10,
         "image": "",
-        "message": "...",
+        "message": "Hanna is an abstract artist that creates bright, beautiful physical pieces and transforms them into NFTs. Plus... Whiskey. MMMMMMMM",
         "action1": "Wow! That exhibition was incredible!",
         "action2": "",
         "changescene": "foyer",
